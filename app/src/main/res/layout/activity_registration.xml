@@ -1,0 +1,87 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_backgound"
+    tools:context=".logIn">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="250dp"
+         android:gravity="center"
+        android:layout_marginBottom="15sp"
+        android:text="Register"
+
+
+        android:textColor="#B37DDB"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="@string/e_mail"
+           >
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:hint="@string/password"
+           >
+
+        </com.google.android.material.textfield.TextInputEditText>
+    </com.google.android.material.textfield.TextInputLayout>
+<ProgressBar
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/progressBar"
+    android:visibility="gone">
+
+</ProgressBar>
+
+    <Button
+        android:id="@+id/buttonReg"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@color/black"
+        android:gravity="center_horizontal"
+        android:shadowColor="#050404"
+        android:text="@string/register"
+        android:textColor="#070707"
+
+
+        android:textSize="25sp"
+        android:textStyle="bold"
+        tools:ignore="TextContrastCheck" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="#ffff"
+        android:id="@+id/loginNow"
+        android:gravity="center"
+        android:layout_marginTop="25sp"
+        android:text="@string/click_here_to_login">
+
+    </TextView>
+
+</LinearLayout>

@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">GrowTask</string>
+    <string name="login">Login</string>
+    <string name="e_mail">E-mail</string>
+    <string name="password">Password</string>
+    <string name="click_here_to_login">Click here to Login</string>
+    <string name="register">register</string>
+    <string name="click_here_to_register_now">Click here to register now</string>
+    <string name="logout">logOut</string>
+
+</resources>

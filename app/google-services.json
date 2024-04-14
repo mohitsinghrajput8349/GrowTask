@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "792726860648",
+    "project_id": "growtask-a9554",
+    "storage_bucket": "growtask-a9554.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:792726860648:android:4a0b4d04b71d84da46dcdd",
+        "android_client_info": {
+          "package_name": "com.example.growtask"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB_fmcyj5fI5h4cd-XAmVPhv3kUjtL5qFo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
